@@ -6,7 +6,8 @@ string GenerateTheString(int n){
             while(n-- > 0){
                 str += "a";
             }
-        } else{
+        } 
+        else{
             while(--n > 0){
                 str += "a";
             } str += "b";
