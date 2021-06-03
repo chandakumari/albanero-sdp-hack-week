@@ -34,6 +34,7 @@ vector<string> findAndReplacePattern(vector<string>& words, string p) {
     return ans;
 }
 int main(){
+	int ch;
 	string str;
 	cin>>str;
 	vector<string> v;
