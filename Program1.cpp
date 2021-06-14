@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-string GenerateString(int n)
+string GenerateTheString(int n)
 {
     string str = "";
     if (n % 2)
@@ -24,7 +24,7 @@ int main()
 {
     int n;
     cin >> n;
-    string ans = GenerateString(n);
+    string ans = GenerateTheString(n);
     cout << ans << endl;
     return 0;
 }
